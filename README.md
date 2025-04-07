@@ -1,4 +1,3 @@
-# log_watcher
 # 🛡️ Log Watcher – Hourly Log Backup & Tampering Detection
 
 This script automates **hourly log backups** and performs **hash-based validation** to detect potential log tampering or deletion due to attacks. If anomalies are found, it immediately sends you an email alert with the suspicious logs attached.
