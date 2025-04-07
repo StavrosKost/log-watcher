@@ -56,20 +56,20 @@ Add this line:
 ```
 
 ## Requirements
-Python 3.7+
+ - `Python 3.7+`
 
-smtplib and ssl (comes with Python)
+- `smtplib and ssl (comes with Python)`
 
-hashlib
+- `hashlib`
 
-os, shutil, datetime, etc.
+- `os, shutil, datetime, etc.`
 
 All are built-in with Python.
 
 ## Use Case
-Ideal for blue teams, SOC analysts, and incident response workflows.
+- `Ideal for blue teams, SOC analysts, and incident response workflows.`
 
-Lightweight, no SIEM required.
+- `Lightweight, no SIEM required.`
 
 Easy to integrate into a home lab or small enterprise environment.
 
