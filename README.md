@@ -43,15 +43,36 @@ EMAIL_ADDRESS = "your_email@example.com"
 EMAIL_PASSWORD = "your_app_password"
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 465
+```
 
 ##🛠️ Cron Setup
 To run the script every hour:
-
-Edit
+```
 crontab -e
+```
 Add this line:
-
-bash
-Copy
-Edit
+```
 0 * * * * /usr/bin/python3 /path/to/log_watcher.py
+```
+
+ Requirements
+Python 3.7+
+
+smtplib and ssl (comes with Python)
+
+hashlib
+
+os, shutil, datetime, etc.
+
+All are built-in with Python.
+
+Use Case
+Ideal for blue teams, SOC analysts, and incident response workflows.
+
+Lightweight, no SIEM required.
+
+Easy to integrate into a home lab or small enterprise environment.
+
+Author
+Built by @StavrosKost
+Feel free to fork, star, or submit a pull request!
