@@ -66,13 +66,13 @@ os, shutil, datetime, etc.
 
 All are built-in with Python.
 
-##Use Case
+## Use Case
 Ideal for blue teams, SOC analysts, and incident response workflows.
 
 Lightweight, no SIEM required.
 
 Easy to integrate into a home lab or small enterprise environment.
 
-##Author
+## Author
 Built by @StavrosKost
 Feel free to fork, star, or submit a pull request!
